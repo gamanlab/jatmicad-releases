@@ -1,0 +1,55 @@
+name: Laporan bug
+description: Ada yang tidak berjalan sebagaimana mestinya.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issue di repo ini bersifat publik. Jangan menyertakan kata sandi, token, atau data dan gambar proyek yang rahasia.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Apa yang terjadi?
+      description: Jelaskan masalahnya dan pesan galat yang muncul, bila ada.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Apa yang seharusnya terjadi?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Langkah untuk memunculkan masalah
+      placeholder: |
+        1. Buka menu ...
+        2. Klik ...
+        3. Muncul ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versi JatmiCAD
+      placeholder: "0.10.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Tempat Anda memakai JatmiCAD
+      options:
+        - Windows
+        - Linux (AppImage)
+        - Linux (deb)
+        - Peramban web
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Tangkapan layar atau log
+      description: Opsional. Periksa dulu bahwa isinya tidak memuat data rahasia.

@@ -1,0 +1,33 @@
+name: Usulan fitur
+description: Usulkan fitur baru atau perbaikan pada fitur yang ada.
+title: "[Fitur]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issue di repo ini bersifat publik. Jangan menyertakan kata sandi, token, atau data dan gambar proyek yang rahasia.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Kebutuhan atau masalah Anda
+      description: Pekerjaan apa yang ingin dilakukan, dan apa yang menghambatnya sekarang?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Usulan Anda
+      description: Bagaimana sebaiknya fitur ini bekerja?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Cara lain yang sudah dicoba
+      description: Opsional. Cara yang sekarang Anda pakai untuk menyiasatinya.
+  - type: textarea
+    id: context
+    attributes:
+      label: Informasi tambahan
+      description: Opsional. Contoh gambar, standar yang dipakai, atau referensi lain.

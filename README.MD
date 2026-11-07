@@ -41,3 +41,13 @@ Aplikasi memuat JatmiCAD dari server, jadi saat pertama dibuka Anda diminta meng
 Alamatnya bisa diganti lewat **Berkas > Ganti server…**.
 
 Berkas proyek berekstensi `.hjatmi`. Berkas lama `.elektra` tetap bisa dibuka.
+
+## Usulan fitur dan laporan bug
+
+Sampaikan lewat [Issues](https://github.com/gamanlab/jatmicad-releases/issues/new/choose) dan pilih templatenya:
+
+- **[Laporan bug](https://github.com/gamanlab/jatmicad-releases/issues/new?template=bug_report.yml)**: ada yang tidak berjalan sebagaimana mestinya.
+- **[Usulan fitur](https://github.com/gamanlab/jatmicad-releases/issues/new?template=feature_request.yml)**: fitur baru atau perbaikan pada fitur yang ada.
+
+Cek dulu [issue yang sudah ada](https://github.com/gamanlab/jatmicad-releases/issues) agar tidak dobel. Issue bersifat publik,
+jadi jangan menyertakan kata sandi, token, atau data dan gambar proyek yang rahasia.
