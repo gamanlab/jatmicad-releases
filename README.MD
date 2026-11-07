@@ -40,6 +40,20 @@ sudo apt install ./jatmicad_*_amd64.deb
 Aplikasi memuat JatmiCAD dari server, jadi saat pertama dibuka Anda diminta mengisi alamat server JatmiCAD.
 Alamatnya bisa diganti lewat **Berkas > Ganti server…**.
 
+### Server gratis
+
+Anda bisa memakai server gratis kami tanpa memasang server sendiri:
+
+```
+https://jatmicad.gamanlab.io
+```
+
+Isi alamat itu saat aplikasi meminta alamat server, lalu daftar akun. Server yang sama juga bisa langsung dibuka
+di peramban. Dengan memakainya, Anda menyetujui [Ketentuan Layanan](https://jatmicad.gamanlab.io/terms) dan
+[Kebijakan Privasi](https://jatmicad.gamanlab.io/privacy).
+
+JatmiCAD masih pre-alpha, jadi simpan salinan proyek penting di komputer Anda sendiri (**Berkas > Backup proyek…**).
+
 Berkas proyek berekstensi `.hjatmi`. Berkas lama `.elektra` tetap bisa dibuka.
 
 ## Usulan fitur dan laporan bug
